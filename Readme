@@ -1,6 +1,12 @@
 注意：该文件夹中的命令行是方便在windows的命令行中使用的工具命令
 如果想方便的使用这些命令，需要将当前目录添加到环境变量的PATH变量中去
 在本人的电脑上我是放在了D:/winsh中
+%var% 获取 var的值
+%1 获取第一个 argv 的值
 目前提供的命令：
 ls  (调用了dir命令)
 pwd (调用了echo %cd%)
+sh：使用 Linux 的命令行(调用了git bash 的 shell命令： sh --login -i)
+winsh:挑战到 winsh 目录
+opendir: 打开文件浏览器,指定目录
+desk: 使用文件浏览器打开桌面目录
